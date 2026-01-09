@@ -1,4 +1,4 @@
-import json
+import json 
 from constants import DATA_PATH, CURRENT_YEAR
 from pydantic import BaseModel, Field, field_validator
 

@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.markdown("# App front pg")
+
 pages = [
     st.Page("pages/home.py", title="Home"),
     st.Page("pages/book_finder.py", title="BookFinder"),

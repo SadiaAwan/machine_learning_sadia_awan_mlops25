@@ -15,3 +15,8 @@ a3-packaging = "a3_packaging:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv.workspace]
+members = [
+    "taxipred",
+]
